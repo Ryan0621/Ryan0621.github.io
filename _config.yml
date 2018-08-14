@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Me"
 title_separator          : "-"
 name                     : "Ryan Chan"
 description              :
@@ -79,7 +79,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : "RyanChan.aka.Finexes"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -88,7 +88,10 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://www.facebook.com/RyanChan.aka.Finexes"
+    - "https://www.instagram.com/some_random_ryan/"
+    - "https://www.linkedin.com/in/ryan-chan-302a8816a/"
 
 # Analytics
 analytics:
@@ -101,9 +104,10 @@ analytics:
 # Site Author
 author:
   name             : "Ryan Chan"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :
-  location         :
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Student"
+  location         : "California, United States"
+  mobile           : "+6011-12240818"
   email            : ryan07063@gmail.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -111,18 +115,18 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "RyanChan.aka.Finexes"
   foursquare       :
-  github           :
+  github           : "Ryan0621"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "some_random_ryan"
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "ryan-chan-302a8816a"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "10222262/ryan-chan"
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :
@@ -184,7 +188,7 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
+  #toc_levels:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
@@ -269,3 +273,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
