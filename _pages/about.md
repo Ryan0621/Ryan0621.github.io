@@ -17,22 +17,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Technical Skill
 
 ### Programming Languages
-<i class="devicon-python-plain" style="font-size: 3rem; width: 500px;" ></i>
-<i class="devicon-java-plain" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-cplusplus-line" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-mysql-plain" style="font-size: 3rem; width: 500px;"></i>
+<i class="devicon-python-plain" style="font-size: 3rem; " ></i>
+<i class="devicon-java-plain" style="font-size: 3rem; "></i>
+<i class="devicon-cplusplus-line" style="font-size: 3rem; "></i>
+<i class="devicon-mysql-plain" style="font-size: 3rem; "></i>
 
 ### Web Development
-<i class="devicon-html5-plain" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-css3-plain" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-javascript-plain" style="font-size: 3rem; width: 500px;"></i>
+<i class="devicon-html5-plain" style="font-size: 3rem; "></i>
+<i class="devicon-css3-plain" style="font-size: 3rem; "></i>
+<i class="devicon-javascript-plain" style="font-size: 3rem; "></i>
 
 ### Tools
-<i class="devicon-ubuntu-plain" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-github-plain" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-docker-plain" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-atom-original" style="font-size: 3rem; width: 500px;"></i>
-<i class="devicon-git-plain" style="font-size: 3rem; width: 500px;"></i>
+<i class="devicon-ubuntu-plain" style="font-size: 3rem; "></i>
+<i class="devicon-atom-original" style="font-size: 3rem; "></i>
+<i class="devicon-github-plain" style="font-size: 3rem; "></i>
+<i class="devicon-git-plain" style="font-size: 3rem; "></i>
+<i class="devicon-docker-plain" style="font-size: 3rem; "></i>
 
 ### Machine Learning
 - Pandas, Numpy, Scikit-Learn, Matplotlib
